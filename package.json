@@ -1,0 +1,46 @@
+{
+  "name": "@chris1369/b-library-reactjs",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Chris1369"
+  },
+  "version": "1.0.0",
+  "description": "b library is a components library for reactJs",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris1369/b-library-reactJs.git"
+  },
+  "keywords": [
+    "Bill",
+    "components",
+    "library"
+  ],
+  "author": "chris1369",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris1369/b-library-reactJs/issues"
+  },
+  "homepage": "https://github.com/Chris1369/b-library-reactJs#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.38",
+    "react": "^17.0.2",
+    "rollup": "^2.63.0",
+    "rollup-plugin-dts": "^4.1.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "tslib": "^2.3.1"
+  }
+}
